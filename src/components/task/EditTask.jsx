@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const EditTask = ({ task, editTask, toggleComplete, deleteTask }) => {
+const SingleTask = ({ task, editTask, toggleComplete, deleteTask }) => {
   const [isClick, setIsClick] = useState(false);
   const [updateText, setUpdateText] = useState(task.text);
   const handleUpdateText = () => {
@@ -18,6 +18,7 @@ const EditTask = ({ task, editTask, toggleComplete, deleteTask }) => {
   const handleCloseModal = () => {
     setIsClick(false);
   };
+
   return (
     <li>
       <span
@@ -53,4 +54,4 @@ const EditTask = ({ task, editTask, toggleComplete, deleteTask }) => {
     </li>
   );
 };
-export default EditTask;
+export default SingleTask;
