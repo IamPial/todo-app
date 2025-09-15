@@ -66,7 +66,6 @@ const App = () => {
         deleteTask={deleteTask}
         editTask={editTask}
       />
-      {/* <EditTask /> */}
     </div>
   );
 };

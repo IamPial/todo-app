@@ -1,4 +1,4 @@
-import SingleTask from "./EditTask";
+import SingleTask from "./SingleTask";
 
 const ShowTask = ({ tasks, toggleComplete, deleteTask, editTask }) => {
   return (
