@@ -3,7 +3,7 @@ import shortid from "shortid";
 import CreateTask from "./components/task/createTask";
 import ShowTask from "./components/task/ShowTaks";
 import FilterTask from "./components/task/FilterTask";
-import EditTask from "./components/task/EditTask";
+
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
